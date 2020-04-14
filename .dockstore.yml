@@ -1,0 +1,11 @@
+version: 1.2
+workflows:
+   - subclass: cwl
+     primaryDescriptorPath: /Dockstore.cwl
+     testParameterFiles:
+     - /test/dockstore.cwl.json
+   - subclass: wdl
+     primaryDescriptorPath: /Dockstore.wdl
+     testParameterFiles:
+     - /test/dockstore.wdl.json
+     name: foobar2
