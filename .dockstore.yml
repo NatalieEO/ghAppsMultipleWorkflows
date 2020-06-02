@@ -8,4 +8,4 @@ workflows:
      primaryDescriptorPath: /Dockstore.wdl
      testParameterFiles:
      - /test/dockstore.wdl.json
-     name: foobar2
+     name: optional-name
